@@ -1,0 +1,10 @@
+{
+  "name": "@test/foo",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./bar": "./src/bar/index.ts"
+  },
+  "license": "MIT"
+}

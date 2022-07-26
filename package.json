@@ -2,17 +2,15 @@
   "name": "next-dynamic-esm",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "type": "tsc --noEmit"
-  },
-  "dependencies": {
-    "next": "12.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "18.6.1",
